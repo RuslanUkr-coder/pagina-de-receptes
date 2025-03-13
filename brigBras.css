@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-size: 30px;
+    color: rgb(53, 35, 8);
+    margin: 6%;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to right bottom, rgb(238, 199, 140), rgb(141, 94, 55));
+}
+
+img {
+    width: 50%;
+    border-radius: 0.5vw;
+    border: 0.8vw solid antiquewhite;
+    margin-left: auto;
+}
+
+h1 {
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
+    border: 0.8vw solid antiquewhite;
+    border-radius: 0.5vw; 
+    padding: 10px;
+}
+
+.difrec {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 0.8vw solid antiquewhite; 
+    border-radius: 0.5vw;
+    padding: 10px;
+}
+
+#DNbuttons {
+    display: flex;
+    align-items: center;
+}
+
+#DNbuttons a, #DNbuttons button {
+    background-color: burlywood;
+    border: 0.8vw solid antiquewhite;
+    border-radius: 0.5vw;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#DNbuttons button:hover, #DNbuttons a:hover {
+    background-color: rgb(238, 199, 140);
+}
+
+/* Estilos para el modo noche */
+body.night-mode {
+    background-image: linear-gradient(to right bottom, rgb(141, 94, 55), rgb(61, 37, 18));
+    color: rgb(255, 174, 53);
+}
+
+.difrec.night-mode {
+    background-color: rgb(99, 60, 29);
+    border-color: rgb(128, 83, 47);
+}
+
+#DNbuttons button.night-mode, #DNbuttons a.night-mode {
+    background-color: rgb(99, 60, 29);
+    border-color: rgb(128, 83, 47);
+    color: rgb(255, 174, 53);
+}
+
+img.night-mode {
+    border-color: rgb(128, 83, 47);
+}
+
+h1.night-mode, p.night-mode {
+    border-color: rgb(128, 83, 47);
+}
+.pasos {
+    margin: 20px;
+    background-color: burlywood;
+    border: 0.8vw solid antiquewhite;
+    border-radius: 0.5vw;
+    padding: 10px; 
+    width: auto;
+    box-sizing: border-box;
+}
+.pasos.night-mode {
+    background-color: rgb(99, 60, 29);
+    border-color: rgb(128, 83, 47);
+    border-radius: 0.5vw;
+    padding: 10px; 
+    margin: 20px;
+}
+#A {
+    display: flex;
+    flex-direction: row;
+}

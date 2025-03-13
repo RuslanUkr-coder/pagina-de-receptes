@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+    <meta name="author" content="By Ruslan Liedvin">
+    <title>Recetas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <h2>(Esta pagina aun esta en desarrollo)</h2>
+    <div id="topofpage">
+        <div id="logoDiv">
+            <img id="miLogoPro" src="miLogoPro.png" alt="Logo de la pagina">
+        </div>
+        <div id="DNbuttons">
+            <button onclick="day()">🌞</button>
+            <button onclick="night()">🌙</button>
+        </div>
+    </div>
+    <div id="recetas">
+        <div id="startop">
+            <h1>Todas las recetas</h1>
+            <button id="filterButton" onclick="toggleFilterOptions()">Filtrar</button>
+            <div id="filterOptions" style="display: none;">
+                <button onclick="filterBy('todas')">Todas</button>
+                <button onclick="filterBy('sopas')">Sopas</button>
+                <button onclick="filterBy('ensaladas')">Ensaladas</button>
+                <button onclick="filterBy('postres')">Postres</button>
+            </div>
+        </div>
+        <div id="todasrecetas" class="receta sopas difrec">
+            <div class="tecst">
+                <h1>Sopa de Tomate</h1>
+                <p>Descripción de la receta...</p>
+            </div>
+        </div>
+        <a href="cesar.html" class="receta ensaladas difrec">
+            <div class="tecst">
+                <h1>Ensalada César</h1>
+                <p>Deliciosa ensalada con pollo y salsa de César.</p>
+            </div>
+            <img src="cesar.png" alt="Ensalada César">
+        </a>
+        <a href="brigadeirosBrasileños.html" class="receta postres difrec">
+            <div class="tecst">
+                <h1>Brigadeiros brasileños</h1>
+                <p>Dulces trufas de chocolate con cacao.</p>
+            </div>
+            <img src="brigadeiros.png" alt="Brigadeiros brasileños">
+        </a>
+        <a href="bizcocho.html" class="receta postres difrec">
+            <div class="tecst">
+                <h1>Bizcocho de naranja</h1>
+                <p>Dulce bizcocho de naranja muy facil de preparar. </p>
+            </div>
+            <img src="bizcocho.png" alt="Bizcocho">
+        </a>
+    </div>
+    <h2>¡Atencion: todas las recetas e imagenes estan sacadas de <a style="text-decoration: underline;" href="https://www.directoalpaladar.com">DAP (Directo al paladar)</a> y NO me proclamo autor de ninguna de las dos! </h2>
+    <script src="nightday.js"></script>
+    <script src="filter.js"></script>
+</body>
+</html>
+<!-- http://192.168.18.13:3000 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- easter-egg, jaj esta pagina la hizo ¡¡¡Ruslan Liedvin!!! -->
